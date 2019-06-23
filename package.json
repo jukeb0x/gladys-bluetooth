@@ -1,0 +1,36 @@
+{
+  "name": "gladys-awox",
+  "version": "2.0.0",
+  "description": "Awox device manager for Gladys",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -u exports --reporter spec --recursive"
+  },
+  "keywords": [
+    "gladys",
+    "awox",
+    "bluetooth"
+  ],
+  "author": "Alexandre Trovato",
+  "license": "CC-BY-NC-SA-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atrovato/gladys-awox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/atrovato/gladys-awox/issues"
+  },
+  "homepage": "https://github.com/atrovato/gladys-awox#readme",
+  "dependencies": {
+    "aes-js": "^3.1.2",
+    "bluebird": "^3.5.3",
+    "noble": "^1.9.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "chai": "^4.1.2",
+    "proxyquire": "^2.0.1",
+    "sinon": "^6.1.5",
+    "istanbul": "^0.4.5"
+  }
+}

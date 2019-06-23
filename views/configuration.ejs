@@ -150,7 +150,7 @@
                                 </div>
                             </div>
 
-                            <div class="form-group row" ng-hide="vm.selectedDevice.device.protocol == 'bluetooth' || vm.selectedDevice.remoteId">
+                            <div class="form-group row" ng-hide="vm.selectedDevice.device.protocol == 'bluetooth' || vm.selectedDevice.device.protocol == 'switchbot' || vm.selectedDevice.remoteId">
                                 <label for="user" class="col-sm-3 control-label"><%= __('User') %></label>
                                 <div class="col-sm-9">
                                     <input type="text" placeholder="<%= __('User') %>" class="form-control"
@@ -158,7 +158,7 @@
                                 </div>
                             </div>
 
-                            <div class="form-group row" ng-hide="vm.selectedDevice.device.protocol == 'bluetooth' || vm.selectedDevice.remoteId">
+                            <div class="form-group row" ng-hide="vm.selectedDevice.device.protocol == 'bluetooth' || vm.selectedDevice.device.protocol == 'switchbot' || vm.selectedDevice.remoteId">
                                 <label for="password" class="col-sm-3 control-label"><%= __('Password') %></label>
                                 <div class="col-sm-9">
                                     <input type="text" placeholder="<%= __('Password') %>" class="form-control"
@@ -169,7 +169,7 @@
                             <div class="form-group row">
                                 <div class="col-sm-4 col-sm-offset-8">
                                     <button class="btn btn-flat btn-success"
-                                        ng-hide="vm.selectedDevice.alreadyExists || vm.selectedDevice.device.protocol != 'bluetooth'"
+                                        ng-hide="vm.selectedDevice.alreadyExists || (vm.selectedDevice.device.protocol != 'bluetooth' && vm.selectedDevice.device.protocol != 'switchbot')"
                                         ng-click="vm.createDevice(vm.selectedDevice);"
                                         ng-disabled="vm.progress"><%= __('Create') %></button>
                                     <button class="btn btn-flat btn-info"
@@ -181,7 +181,7 @@
                                         ng-click="vm.updateDevice(vm.selectedDevice);"
                                         ng-disabled="vm.progress"><%= __('Done') %></button>
                                     <button class="btn btn-flat btn-info"
-                                        ng-hide="vm.selectedDevice.alreadyExists || vm.selectedDevice.device.protocol == 'bluetooth'"
+                                        ng-hide="vm.selectedDevice.alreadyExists || vm.selectedDevice.device.protocol == 'bluetooth' || vm.selectedDevice.device.protocol == 'switchbot'"
                                         ng-click="vm.createMeshDevice(vm.selectedDevice)"
                                         ng-disabled="vm.progress"><%= __('Next') %></button>
                                 </div>

@@ -6,9 +6,9 @@
     .module('gladys')
     .controller('BluetoothController', BluetoothController);
 
-  AwoxController.$inject = ['deviceService', 'roomService', 'awoxService', '$translate', '$scope'];
+  BluetoothController.$inject = ['deviceService', 'roomService', 'bluetoothService', '$translate', '$scope'];
 
-  function AwoxController(deviceService, roomService, bluetoothService, $translate, $scope) {
+  function BluetoothController(deviceService, roomService, bluetoothService, $translate, $scope) {
     var vm = this;
     vm.scan = scan;
     vm.createDevice = createDevice;
@@ -87,7 +87,7 @@
     }
 
     function loadRemotes() {
-      awoxService.getRemotes()
+      bluetoothService.getRemotes()
         .then(function (data) {
           vm.remotes = data.data;
           vm.remotes.unshift({ id: null, identifier: '', name: '' });
@@ -111,7 +111,7 @@
     function scan() {
       vm.devices = [];
 
-      return awoxService.scan()
+      return bluetoothService.scan()
         .then(function (result) {
           manageResult(result);
         });
@@ -147,7 +147,7 @@
     function createMeshDevice(device) {
       vm.progess = true;
       updateTypesName(device);
-      awoxService.createDevice(device).catch(function(e){
+      bluetoothService.createDevice(device).catch(function(e){
         manageError(e);
         vm.progess = false;
       });

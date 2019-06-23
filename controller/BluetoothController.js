@@ -11,7 +11,7 @@ const status = {
 
 module.exports = {
   getRemotes: function (req, res, next) {
-    gladys.device.getByService({ service: 'awox' }).then((devices) => {
+    gladys.device.getByService({ service: 'bluetooth' }).then((devices) => {
       res.json(devices.filter(d => {
         return d.protocol === 'bluetooth-remote';
       }));

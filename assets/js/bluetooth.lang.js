@@ -1,7 +1,7 @@
 var translationsEN = {
-  SERVICE_FAIL: 'AwoX service not available, please install again',
+  SERVICE_FAIL: 'Bluetooth service not available, please install again',
   INFO_TITLE: 'Information',
-  INFO_CONTENT: 'Start scan to find available AwoX devices and configure each to manage them with Gladys.',
+  INFO_CONTENT: 'Start scan to find available AwoX and Switchbot devices and configure each to manage them with Gladys.',
   INFO_REMOTE_TITLE: 'Remote usage',
   INFO_REMOTE: 'If you want to manage lights with Gladys and with the remote, please follow instructions:',
   INFO_REMOTE_1: 'reset lights from remote (hold PowerON + Fav. 1)',
@@ -34,9 +34,9 @@ var translationsEN = {
 };
 
 var translationsFR = {
-  SERVICE_FAIL: 'Le service AwoX n\'est pas disponible, vérifiez son installation',
+  SERVICE_FAIL: 'Le service Bluetooth n\'est pas disponible, vérifiez son installation',
   INFO_TITLE: 'Informations',
-  INFO_CONTENT: 'Démarrez l\'analyse afin de rechercher les périphériques AwoX disponibles, et de les configurer afin de les manipuler avec Gladys.',
+  INFO_CONTENT: 'Démarrez l\'analyse afin de rechercher les périphériques AwoX et Switchbot disponibles, et de les configurer afin de les manipuler avec Gladys.',
   INFO_REMOTE_TITLE: 'Utilisation d\'une télécommande',
   INFO_REMOTE: 'Si vous souhaitez ajouter la gestion d\'ampoules AwoX dans Gladys, tout en conservant le contrôle avec la télécommande, il vous faut suivre les instructions suivantes :',
   INFO_REMOTE_1: 'remise à zéro de l\'ampoule depuis la télécommande (appui long sur les boutons PowerON + Fav. 1)',

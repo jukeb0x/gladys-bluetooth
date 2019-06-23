@@ -3,11 +3,11 @@
 
   angular
     .module('gladys')
-    .factory('awoxService', AwoxService);
+    .factory('bluetoothService', BluetoothService);
 
-  AwoxService.$inject = ['$http'];
+  BluetoothService.$inject = ['$http'];
 
-  function AwoxService($http) {
+  function BluetoothService($http) {
 
     var service = {
       scan: scan,
@@ -19,19 +19,19 @@
     return service;
 
     function scan() {
-      return $http({ method: 'POST', url: '/awox/scan' });
+      return $http({ method: 'POST', url: '/bluetooth/scan' });
     }
 
     function setup() {
-      return $http({ method: 'GET', url: '/awox/setup' });
+      return $http({ method: 'GET', url: '/bluetooth/setup' });
     }
 
     function createDevice(device) {
-      return $http({ method: 'POST', url: '/awox/create', data: device });
+      return $http({ method: 'POST', url: '/bluetooth/create', data: device });
     }
 
     function getRemotes() {
-      return $http({ method: 'GET', url: '/awox/remotes' });
+      return $http({ method: 'GET', url: '/bluetooth/remotes' });
     }
   }
 })();

@@ -4,16 +4,17 @@
 
   angular
     .module('gladys')
-    .controller('SwitchbotController', SwitchbotController);
+    .controller('BluetoothController', BluetoothController);
 
-  SwitchbotController.$inject = ['deviceService', 'roomService', 'switchbotService', '$translate', '$scope'];
+  AwoxController.$inject = ['deviceService', 'roomService', 'awoxService', '$translate', '$scope'];
 
-  function SwitchbotController(deviceService, roomService, switchbotService, $translate, $scope) {
+  function AwoxController(deviceService, roomService, bluetoothService, $translate, $scope) {
     var vm = this;
     vm.scan = scan;
     vm.createDevice = createDevice;
     vm.updateDevice = updateDevice;
     vm.selectDevice = selectDevice;
+    vm.createMeshDevice = createMeshDevice;
     vm.testDevice = testDevice;
 
     vm.scanning = false;
@@ -31,7 +32,7 @@
 
     function activate() {
 
-      io.socket.on('switchbotDiscover', function (params) {
+      io.socket.on('bluetoothDiscover', function (params) {
         $scope.$apply(function () {
           vm.devices = params;
           if (params.length === 0) {
@@ -44,7 +45,7 @@
         });
       });
 
-      io.socket.on('switchbotStatus', function (params) {
+      io.socket.on('bluetoothStatus', function (params) {
         $scope.$apply(function () {
           vm.available = params.bluetoothOn;
           vm.scanning = params.scanning;
@@ -52,13 +53,26 @@
         });
       });
 
-      io.socket.on('switchbotError', function (params) {
+      io.socket.on('bluetoothPair', function (data) {
+        $scope.$apply(function () {
+          vm.error = null;
+          vm.mError = null;
+          vm.progess = false;
+          vm.selectedDevice.device = data.device;
+          vm.selectedDevice.types = data.type;
+          vm.selectedDevice.alreadyExists = true;
+
+          loadRemotes();
+        });
+      });
+
+      io.socket.on('bluetoothError', function (params) {
         $scope.$apply(function () {
           manageError(params);
         });
       });
 
-      switchbotService.setup()
+      bluetoothService.setup()
         .then(function (result) {
           manageResult(result);
         });
@@ -68,14 +82,23 @@
           vm.rooms = data.data;
           vm.rooms.unshift({ id: null, name: '----' });
         });
+
+      loadRemotes();
     }
 
+    function loadRemotes() {
+      awoxService.getRemotes()
+        .then(function (data) {
+          vm.remotes = data.data;
+          vm.remotes.unshift({ id: null, identifier: '', name: '' });
+        });
+    }
 
     function manageResult(result) {
       if (result.status != 200) {
         vm.devices = [];
         vm.available = false;
-        $translate('SERVICE_FAIL').then(function(msg) {
+        $translate('SERVICE_FAIL').then(function(msg){
           manageError(msg);
         });
       } else {
@@ -88,7 +111,7 @@
     function scan() {
       vm.devices = [];
 
-      return switchbotService.scan()
+      return awoxService.scan()
         .then(function (result) {
           manageResult(result);
         });
@@ -110,6 +133,8 @@
     function updateDevice(deviceGroup) {
       vm.progess = true;
       updateTypesName(deviceGroup);
+
+
       deviceService.updateDevice(deviceGroup.device, deviceGroup.types).then(function(){
         vm.progess = false;
         $('#modalMesh').modal('hide');
@@ -119,12 +144,22 @@
       });
     }
 
+    function createMeshDevice(device) {
+      vm.progess = true;
+      updateTypesName(device);
+      awoxService.createDevice(device).catch(function(e){
+        manageError(e);
+        vm.progess = false;
+      });
+    }
 
     function selectDevice(device) {
       vm.selectedDevice = device;
     }
 
     function updateTypesName(deviceGroup) {
+
+
       deviceGroup.types.forEach(function(element){
         element.name = deviceGroup.device.name + element.nameSuffix;
       });

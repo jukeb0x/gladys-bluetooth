@@ -2,23 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0128a506-6b5b-4e52-a178-6b3ec3bf72ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/cometblue/authenticate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/cometblue/commandUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/cometblue/stateFeedback.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bluetooth/connect.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bluetooth/connect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/managePeripheral.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/managePeripheral.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cometblue/exec.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cometblue/exec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cometblue/generateCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cometblue/generateCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cometblue/shared.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cometblue/shared.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/exec.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/exec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/configuration.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/configuration.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>awo</find>
-      <find>awox</find>
-      <find>meshde</find>
-      <find>Awox</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,10 +40,15 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/cometblue" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/cometblue" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -73,7 +76,7 @@
       <workItem from="1561296400482" duration="7664000" />
       <workItem from="1562437059870" duration="1565000" />
       <workItem from="1572626969412" duration="2630000" />
-      <workItem from="1572696377800" duration="1322000" />
+      <workItem from="1572696377800" duration="8027000" />
     </task>
     <servers />
   </component>

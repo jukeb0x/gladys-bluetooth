@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0128a506-6b5b-4e52-a178-6b3ec3bf72ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bluetooth/connect.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bluetooth/connect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/managePeripheral.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/managePeripheral.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,7 +72,8 @@
       <workItem from="1561232470702" duration="2026000" />
       <workItem from="1561296400482" duration="7664000" />
       <workItem from="1562437059870" duration="1565000" />
-      <workItem from="1572626969412" duration="1224000" />
+      <workItem from="1572626969412" duration="2630000" />
+      <workItem from="1572696377800" duration="1322000" />
     </task>
     <servers />
   </component>
@@ -83,7 +85,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

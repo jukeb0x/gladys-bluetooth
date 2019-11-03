@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0128a506-6b5b-4e52-a178-6b3ec3bf72ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bluetooth/read.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bluetooth/read.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cometblue/authenticate.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cometblue/authenticate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cometblue/commandUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cometblue/commandUtils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/cometblue/exec.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cometblue/exec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cometblue/shared.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cometblue/shared.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/exec.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/exec.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,7 +71,7 @@
       <workItem from="1562437059870" duration="1565000" />
       <workItem from="1572626969412" duration="2630000" />
       <workItem from="1572696377800" duration="9081000" />
-      <workItem from="1572799555535" duration="2604000" />
+      <workItem from="1572799555535" duration="4009000" />
     </task>
     <servers />
   </component>

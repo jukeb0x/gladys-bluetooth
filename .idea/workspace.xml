@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0128a506-6b5b-4e52-a178-6b3ec3bf72ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/dump.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/load.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cometblue/authenticate.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cometblue/authenticate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cometblue/exec.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cometblue/exec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/install.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/install.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cometblue/stateFeedback.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cometblue/stateFeedback.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/exec.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/exec.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,13 +43,14 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../gladys/api/core/thermostat/thermostat.command.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/lib/json" />
       <recent name="$PROJECT_DIR$/lib/cometblue" />
     </key>
@@ -84,7 +86,7 @@
       <workItem from="1573127075605" duration="405000" />
       <workItem from="1573127767096" duration="2093000" />
       <workItem from="1573464556706" duration="27572000" />
-      <workItem from="1573561050062" duration="7355000" />
+      <workItem from="1573561050062" duration="7905000" />
     </task>
     <servers />
   </component>

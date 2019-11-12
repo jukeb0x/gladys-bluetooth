@@ -1,6 +1,8 @@
 const noble = require('noble');
 const shared = require('./lib/shared.js');
 const exec = require('./lib/exec.js');
+const dump = require('./lib/dump.js');
+const load = require('./lib/load.js');
 const BluetoothController = require('./controller/BluetoothController.js');
 const BluetoothControllerUtils = require('./controller/BluetoothControllerUtils.js');
 
@@ -27,6 +29,8 @@ module.exports = function (sails) {
 
   return {
     exec: exec,
+    dump: dump,
+    load: load,
     routes: {
       before: {
         'post /bluetooth/scan': (req, res, next) => sails.hooks.policies.middleware.checktoken(req, res, next),

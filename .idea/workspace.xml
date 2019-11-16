@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0128a506-6b5b-4e52-a178-6b3ec3bf72ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dump.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/confDump.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/exec.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/exec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/load.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/confLoad.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cometblue/exec.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cometblue/exec.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +84,7 @@
       <workItem from="1573127767096" duration="2093000" />
       <workItem from="1573464556706" duration="27572000" />
       <workItem from="1573561050062" duration="11318000" />
-      <workItem from="1573927161468" duration="1472000" />
+      <workItem from="1573927161468" duration="7439000" />
     </task>
     <servers />
   </component>

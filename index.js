@@ -3,6 +3,7 @@ const shared = require('./lib/shared.js');
 const exec = require('./lib/exec.js');
 const dump = require('./lib/confDump.js');
 const load = require('./lib/confLoad.js');
+const learn = require('./lib/learn.js');
 const BluetoothController = require('./controller/BluetoothController.js');
 const BluetoothControllerUtils = require('./controller/BluetoothControllerUtils.js');
 
@@ -31,6 +32,7 @@ module.exports = function (sails) {
     exec: exec,
     confDump: dump,
     confLoad: load,
+    learn: learn,
     routes: {
       before: {
         'post /bluetooth/scan': (req, res, next) => sails.hooks.policies.middleware.checktoken(req, res, next),

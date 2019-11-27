@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0128a506-6b5b-4e52-a178-6b3ec3bf72ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/retrieveProg.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cometblue/learn.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cometblue/learn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/retrieveProg.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/retrieveProg.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +85,7 @@
       <workItem from="1573561050062" duration="11318000" />
       <workItem from="1573927161468" duration="9964000" />
       <workItem from="1574782215722" duration="7298000" />
-      <workItem from="1574852145700" duration="3414000" />
+      <workItem from="1574852145700" duration="4518000" />
     </task>
     <servers />
   </component>

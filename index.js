@@ -4,6 +4,7 @@ const exec = require('./lib/exec.js');
 const dump = require('./lib/confDump.js');
 const load = require('./lib/confLoad.js');
 const learn = require('./lib/learn.js');
+const retrieveProg = require('./lib/retrieveProg.js');
 const BluetoothController = require('./controller/BluetoothController.js');
 const BluetoothControllerUtils = require('./controller/BluetoothControllerUtils.js');
 
@@ -33,6 +34,7 @@ module.exports = function (sails) {
     confDump: dump,
     confLoad: load,
     learn: learn,
+    retrieveProg: retrieveProg,
     routes: {
       before: {
         'post /bluetooth/scan': (req, res, next) => sails.hooks.policies.middleware.checktoken(req, res, next),

@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0128a506-6b5b-4e52-a178-6b3ec3bf72ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/cometblue/handleHeatingPeriod.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cometblue/exec.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cometblue/exec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/cometblue/learn.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cometblue/learn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/managePeripheral.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/managePeripheral.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +33,6 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="27" />
-    <option name="width" value="1366" />
-    <option name="height" value="741" />
-  </component>
   <component name="ProjectId" id="1T1UCUBRntgZq0oEOSJnJKIEjhr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,15 +42,15 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/cometblue" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/lib/cometblue" />
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/lib/json" />
     </key>
   </component>
@@ -89,7 +87,8 @@
       <workItem from="1573464556706" duration="27572000" />
       <workItem from="1573561050062" duration="11318000" />
       <workItem from="1573927161468" duration="9964000" />
-      <workItem from="1574782215722" duration="5597000" />
+      <workItem from="1574782215722" duration="7298000" />
+      <workItem from="1574852145700" duration="1278000" />
     </task>
     <servers />
   </component>

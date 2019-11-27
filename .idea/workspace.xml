@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0128a506-6b5b-4e52-a178-6b3ec3bf72ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/cometblue/handleHeatingPeriod.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cometblue/exec.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cometblue/exec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cometblue/handleHeatingPeriod.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cometblue/handleHeatingPeriod.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/cometblue/learn.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cometblue/learn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/managePeripheral.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/managePeripheral.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +86,7 @@
       <workItem from="1573561050062" duration="11318000" />
       <workItem from="1573927161468" duration="9964000" />
       <workItem from="1574782215722" duration="7298000" />
-      <workItem from="1574852145700" duration="1278000" />
+      <workItem from="1574852145700" duration="2337000" />
     </task>
     <servers />
   </component>
